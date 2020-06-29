@@ -6,5 +6,6 @@ Python text faker to generate words, sentences and paragraphs from a given list
 
 
 ## Authors
-[PhoenixAtom](https://github.com/PhoenixAtom) 
-[Ashraq](https://github.com/ashraq1455) for providing the datasets.
+* [PhoenixAtom](https://github.com/PhoenixAtom)
+
+* [Ashraq](https://github.com/ashraq1455) for providing the datasets.
