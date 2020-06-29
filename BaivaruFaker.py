@@ -21,7 +21,7 @@ class BaivaruFaker:
 
     def sentence(self):
         length = randint(5,15)
-        sentence = f"{self.words(length)} {choice(self.endings_list)} ."
+        sentence = f"{self.words(length)} {choice(self.endings_list)}. "
         return sentence
 
     def sentences(self, count, array=False):
@@ -44,5 +44,5 @@ class BaivaruFaker:
 
         paragraphs = ""
         for _ in range(1, count):
-            paragraphs += f"{self.paragraph()}\n"
+            paragraphs += f"{self.paragraph()}\n\n"
         return paragraphs
