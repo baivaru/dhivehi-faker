@@ -31,7 +31,7 @@ class BaivaruFaker:
             return [self.sentence() for _ in range(0, count-1)]
 
         sentences = ""
-        for _ in range(0, count):
+        for _ in range(0, count-1):
             sentences += self.sentence()
         return sentences
 
