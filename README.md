@@ -5,7 +5,11 @@
 Python text faker to generate words, sentences and paragraphs from a given list
 
 
-## Authors
-* [PhoenixAtom](https://github.com/PhoenixAtom)
+## Credits
+* [PhoenixAtom](https://github.com/PhoenixAtom) - Author
 
-* [Ashraq](https://github.com/ashraq1455) - Dhivehi data files.
+* [Ashraq](https://github.com/ashraq1455) - Generating and cleaning data
+
+* [Athfan](https://github.com/athfan) - Idea and feedback
+
+* [Sofwath's Dhivehi Datasets](https://github.com/Sofwath/DhivehiDatasets) - Datasets
