@@ -17,7 +17,7 @@ class BaivaruFaker:
             return [self.word() for _ in range(count)]
 
         words = ""
-        for _ in range(0, count):
+        for _ in range(count):
             words += f"{self.word()} "
         return words
 
@@ -31,7 +31,7 @@ class BaivaruFaker:
             return [self.sentence() for _ in range(count)]
 
         sentences = ""
-        for _ in range(0, count-1):
+        for _ in range(count):
             sentences += self.sentence()
         return sentences
 
@@ -45,6 +45,6 @@ class BaivaruFaker:
             return [self.paragraph() for _ in range(count)]
 
         paragraphs = ""
-        for _ in range(0, count):
+        for _ in range(count):
             paragraphs += f"{self.paragraph()}\n\n"
         return paragraphs.rstrip()
