@@ -14,7 +14,7 @@ class BaivaruFaker:
 
     def words(self, count, array=False):
         if array:
-            return [self.word() for _ in range(0,count)]
+            return [self.word() for _ in range(count)]
 
         words = ""
         for _ in range(0, count):
@@ -28,7 +28,7 @@ class BaivaruFaker:
 
     def sentences(self, count=randint(5,20), array=False):
         if array:
-            return [self.sentence() for _ in range(0, count-1)]
+            return [self.sentence() for _ in range(count)]
 
         sentences = ""
         for _ in range(0, count-1):
@@ -42,7 +42,7 @@ class BaivaruFaker:
     
     def paragraphs(self, count=randint(5,10), array=False):
         if array:
-            return [self.paragraph() for _ in range(0, count)]
+            return [self.paragraph() for _ in range(count)]
 
         paragraphs = ""
         for _ in range(0, count):
