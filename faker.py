@@ -1,8 +1,10 @@
 import json
 from random import choice, randint
 
+
 class BaivaruFaker:
-    def __init__(self, words_file="thaana.json", endings_file="end.json", sentence_length=randint(5,10), paragraph_length=randint(5,15)):
+    def __init__(self, words_file="thaana.json", endings_file="end.json", sentence_length=randint(5, 10),
+                 paragraph_length=randint(5, 15)):
         self.word_list = json.load(open(words_file, encoding="utf-8"))
         self.endings_list = json.load(open(endings_file, encoding="utf-8"))
         self.sentence_length = sentence_length
@@ -26,7 +28,7 @@ class BaivaruFaker:
         sentence = f"{self.words(length)} {choice(self.endings_list)}."
         return sentence
 
-    def sentences(self, count=randint(5,20), array=False):
+    def sentences(self, count=randint(5, 20), array=False):
         if array:
             return [self.sentence() for _ in range(count)]
 
@@ -39,8 +41,8 @@ class BaivaruFaker:
         length = self.paragraph_length
         paragraph = self.sentences(length)
         return paragraph
-    
-    def paragraphs(self, count=randint(5,10), array=False):
+
+    def paragraphs(self, count=randint(5, 10), array=False):
         if array:
             return [self.paragraph() for _ in range(count)]
 
