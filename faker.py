@@ -2,9 +2,20 @@ import json
 from random import choice, randint
 
 
-class BaivaruFaker:
-    def __init__(self, words_file="thaana.json", endings_file="end.json", sentence_length=randint(5, 10),
-                 paragraph_length=randint(5, 15)):
+class DhivehiFaker:
+    def __init__(self, words_file=None, endings_file=None, sentence_length=None, paragraph_length=None):
+        if words_file is None:
+            words_file = 'data/thaana.json'
+
+        if endings_file is None:
+            endings_file = 'data/end.json'
+
+        if sentence_length is None:
+            sentence_length = randint(5, 10)
+
+        if paragraph_length is None:
+            paragraph_length = randint(5, 15)
+
         self.word_list = json.load(open(words_file, encoding="utf-8"))
         self.endings_list = json.load(open(endings_file, encoding="utf-8"))
         self.sentence_length = sentence_length
