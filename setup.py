@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dhivehi_faker',
+    name='DhivehiFaker',
     version='0.1.0',
     author="Baivaru",
     author_email="admin@baivaru.net",
