@@ -14,7 +14,7 @@ setup(
     package_data={'': ['*.json', 'data/*.json']},
     include_package_data=True,
     install_requires=[],
-    url='https://github.com/phoenixatom/dhivehi-avatar',
+    url='https://github.com/baivaru/dhivehi-faker',
     classifiers=[
         "Programming Language :: Python",
         "Operating System :: OS Independent",
