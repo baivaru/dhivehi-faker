@@ -4,8 +4,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dhivehi-faker',
-    version='0.3',
+    name='dhivehi_faker',
+    version='0.1.0',
     author="Baivaru",
     author_email="admin@baivaru.net",
     description="It's like Faker but Dhivehi",
