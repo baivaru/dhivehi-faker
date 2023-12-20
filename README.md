@@ -4,6 +4,14 @@
 
 Python text faker to generate words, sentences and paragraphs from a given list
 
+---
+
+A web hosted version of this project can be found at [https://faker.baivaru.net](https://faker.baivaru.net/)
+
+
+### Alternative Implementations
+- [Iyaaan/thaana-faker](https://github.com/Iyaaan/thaana-faker) - Implemented in TypeScript
+
 
 ## Credits
 * [PhoenixAtom](https://github.com/PhoenixAtom) - Author
